@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+<h1>Cadastrar!</h1>
+<h2><%= msg %></h2>
+<form method="POST" action="/cadastrar">
+Usuário<input type="TEXT" id="nome" name="nome" size="40"><br>
+Nome<input type="TEXT" id="nome" name="nome" size="40"><br>
+E-mail<input type="TEXT" id="email" name="email" size="40"><br>
+Senha<input type="password" name="senha" id="senha" size="40"><br>
+Data de Nascimento <input type="date" id="data_de_nascimento" size="8"><br>
+<input type="submit" id="submit" value="Submit">
+</form>
+<a href="/listar"> Ver cadastrados </a>
+</body>
+</html>
